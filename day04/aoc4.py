@@ -60,5 +60,3 @@ for line in lines:
     if partial_overlap(range1, range2):
         num_partial_overlaps += 1
 print('Number of partial overlaps: ' + str(num_partial_overlaps))
-
-

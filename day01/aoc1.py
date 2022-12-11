@@ -13,7 +13,7 @@
 #     name: python3
 # ---
 
-# # Advent of Code 2022 - Day 2
+# # Advent of Code 2022 - Day 1
 
 # +
 file = open('input1.txt','r')
@@ -36,5 +36,3 @@ print('Top 3: ')
 print(top3)
 print('Top 3 sum: ')
 print(sum(top3))
-
-

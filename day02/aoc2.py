@@ -13,7 +13,7 @@
 #     name: python3
 # ---
 
-# # Advent of Code 2022 - Day 1
+# # Advent of Code 2022 - Day 2
 
 # + tags=[]
 file = open('input2.txt','r')
@@ -106,5 +106,3 @@ for line in lines:
     opponent_action, my_action = line.split()
     total_points += points2(opponent_action, my_action)
 print('Total points: ' + str(total_points))
-
-

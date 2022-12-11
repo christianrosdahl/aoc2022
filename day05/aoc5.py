@@ -129,6 +129,3 @@ for stack_num in range(1, num_stacks+1):
     solution += stacks[stack_num][0]
 print('Solution: ')
 print(solution)
-# -
-
-
