@@ -17,7 +17,7 @@
 
 def initiate():
     # Load data
-    file = open('input11.txt','r')
+    file = open('input.txt','r')
     lines = file.readlines()
     for i in range(len(lines)):
         lines[i] = lines[i].replace('\n', '')

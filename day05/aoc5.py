@@ -18,7 +18,7 @@
 # ## Part 1
 
 # Load initial stack data
-file = open('input5a.txt','r')
+file = open('input1.txt','r')
 lines = file.readlines()
 for i in range(len(lines)):
     lines[i] = lines[i].replace('\n', '')
@@ -44,7 +44,7 @@ print(stacks)
 # -
 
 # Load moving instructions
-file = open('input5b.txt','r')
+file = open('input2.txt','r')
 lines = file.readlines()
 for i in range(len(lines)):
     lines[i] = lines[i].replace('\n', '')
@@ -75,7 +75,7 @@ print(solution)
 # ## Part 2
 
 # Load initial stack data
-file = open('input5a.txt','r')
+file = open('input1.txt','r')
 lines = file.readlines()
 for i in range(len(lines)):
     lines[i] = lines[i].replace('\n', '')
@@ -101,7 +101,7 @@ print(stacks)
 # -
 
 # Load moving instructions
-file = open('input5b.txt','r')
+file = open('input2.txt','r')
 lines = file.readlines()
 for i in range(len(lines)):
     lines[i] = lines[i].replace('\n', '')

@@ -16,7 +16,7 @@
 # # Advent of Code 2022 - Day 4
 
 # Load data
-file = open('input4.txt','r')
+file = open('input.txt','r')
 lines = file.readlines()
 for i in range(len(lines)):
     lines[i] = lines[i].replace('\n', '')

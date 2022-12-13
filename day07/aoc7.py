@@ -20,7 +20,7 @@
 # ## Part 1
 
 # Load data
-file = open('input7.txt','r')
+file = open('input.txt','r')
 lines = file.readlines()
 for i in range(len(lines)):
     lines[i] = lines[i].replace('\n', '')
@@ -63,7 +63,7 @@ for i, line in enumerate(file_system):
 # + tags=[]
 print('Directory sizes: ' + str(dir_sizes))
 
-# + tags=[]
+# + tags=[] jupyter={"outputs_hidden": true}
 print('File system: ')
 print('(level, type, name/size)')
 for i in file_system:

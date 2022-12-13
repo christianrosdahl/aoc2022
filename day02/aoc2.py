@@ -16,7 +16,7 @@
 # # Advent of Code 2022 - Day 2
 
 # + tags=[]
-file = open('input2.txt','r')
+file = open('input.txt','r')
 lines = file.readlines()
 for i in range(len(lines)):
     lines[i] = lines[i].replace('\n', '')
